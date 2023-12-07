@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(46, 41, 41);
+    color: #fff;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+.tabledata{
+    align-items: center;
+    margin-inline: 9rem;
+}
+
+table, th, td{
+    border: 1px solid #fff;
+    padding: 2px;
+}
+
+th,td{
+    padding: 12px;
+}
+
+.list-items{
+    display: flex;
+}

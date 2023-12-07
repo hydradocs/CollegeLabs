@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- <h4>Lab 2</h4> -->
+
+        <label class="switch">
+            <input type="checkbox" checked onclick="myFunction()">
+            <span class="slider round"></span>
+        </label>
+    </header>
+
+    <br>
+    <!-- <div class="container">
+        <form action="" method="post">
+            <h5><center>Form</center></h5>
+            <input type="text" aria-placeholder="Name">
+        </form>
+    </div> -->
+    <section>
+        <div class="container">
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name"><br><br>
+
+                <label for="sex">Sex:</label>
+                <input type="radio" name="sex" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="sex" id="female" value="female">
+                <label for="female">Female</label> <br><br>
+
+
+                <label for="course">Brance: </label>
+                <select name="country" id="country">
+                    <option>Select an option</option>
+                    <option value="cse">CSE</option>
+                    <option value="me">ME</option>
+                    <option value="ece">ECE</option>
+                </select><br><br>
+
+
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="message" cols="30" rows="4"></textarea><br><br>
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Subscribe?</label><br><br>
+
+
+                <!-- <input type="submit" value="Submit"> -->
+                <button type="submit">
+                    <img src="../Lab 1/image.jpg" alt="">
+                </button>
+            </form>
+        </div>
+        <br>
+        <article>
+            <h2>Lab 02</h2>
+            <br>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque cum ducimus vel, doloremque autem quo
+                repellat aliquid atque nostrum eos optio dolores debitis ab aut fuga in et similique quisquam.
+            </p>
+        </article>
+
+
+    </section>
+
+
+    <br>
+    <a href="../Lab 1/index.html">Back to Home</a>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>
